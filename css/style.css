@@ -1,0 +1,206 @@
+/*
+Cau truc cua box
+margin lề ngoài của box
+border viền của box
+padding phan lót bên trong box ngăn với nội dung
+content phần nội dung bên trong box
+*/
+
+* {
+	padding: 0;
+	margin:0;
+}
+
+#header {
+	width:  100%;
+	height: 100vh;
+	background-image: url(../images/restaurant1.jpg);
+	
+}
+
+#banner p {
+	width: 60%;
+    margin: 50px auto;
+    color: white;
+    font-size: 70px;
+    text-align: center
+}
+
+body {
+	font-family:sans-serif;
+	color: #333;
+}
+/**/
+/* ==Menu== */
+
+#header-top {
+	list-style-type: none;
+	padding-top: 20px;
+    margin-left: 500px;;
+	color: white;
+}
+
+#header #header-top ul li{
+	color: #f1f1f1;
+	display: inline;
+}
+/* 
+.cleft {
+	margin-top:50px; 
+	margin-left: 100px;
+	padding: 1em;
+} */
+a {
+	color:white;
+	text-decoration: none;
+	margin-left: 20px;
+
+}
+
+#header-top{
+	margin-left: 400px
+}
+.banner-button{
+	text-align: center;
+	padding-top: 50px;
+	
+}
+
+.button{
+	width: 100px;
+	height: auto;
+	border: 1px solid black;
+	padding: 20px 50px 20px 50px;
+	display: inline;
+	background-color: white;
+	opacity: 0.5;
+	margin-bottom: 50px;
+	margin-right: 50px;
+	box-sizing: border-box;
+}
+
+.info-cooker {
+	width: 300px;
+	float: left;
+	margin-left: 200px;
+
+/*	padding: 1em;
+	margin-left: 100px;*/
+	
+}
+
+.cook {
+	float: right;
+}
+
+.lephai {
+	clear:both;
+	background-color: black;
+	opacity: 0.5;
+	float: right;
+	padding: 1em;
+	margin-right: 15%;
+	margin-top: 15%;
+}
+
+
+.mota {
+
+	text-align: justify;
+	color: white;
+	width: 410px;
+	padding: 1em;
+	margin: 0 auto;
+	
+}
+
+#trang2 {
+	background-image: url(../images/12.jpg);
+	width: 100%;
+	height: 100vh;
+}
+
+#trang3 {
+	background-image: url(../images/13.jpg);
+	width:  100%;
+	height: 100vh;
+	display: relative;
+}
+
+.lephai li {
+	display: inline;
+	font-size: 20px;
+	padding: 20px;
+}
+
+#trang4 {
+	background-image: url(../images/12.jpg);
+	display: relative;
+}
+
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: black;
+}
+
+h2 {
+	text-align: center;
+	font-size: 24px;
+	color:#cc9900;
+	margin-top: 30px;
+}
+
+p {
+	text-align: center;
+	font-size: 16px;
+	color:#5d5d5d;
+	margin-top: 30px;
+}
+
+.info-cooker #img1 {
+	margin-top: 10px;
+	text-align: center;
+	width: 300px;
+    height: 28px;
+}
+
+h3 {
+	font-size: 10px;
+}
+
+.box1 {
+	width: 50%;
+	float: left;
+	padding: 1em;
+}
+
+.box2 {
+	width: 50%;
+	float: left;
+	padding: 1em;
+}
+
+.box3 {
+
+	float: left;
+	width: 50%;
+	padding: 1em;
+}
+
+.box4 {
+
+	width: 50%;
+	float: right;
+	padding: 1em;
+}
+.text-center{
+	text-align: center;
+}
+#trang4{
+	width: 80%;
+	margin: 50px auto;
+}
